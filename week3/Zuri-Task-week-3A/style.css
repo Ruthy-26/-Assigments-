@@ -1,0 +1,169 @@
+html, body {
+  height: 100%;
+  width: 100%;
+    font-family: "Poppins" "sans-serif";
+  letter-spacing: 0.2px;
+  word-wrap: break-word;
+  overflow:- visible;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 100vh;
+  width:100%;
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4h8bjTrJ_uWu0Wq2KCIinA8Kv5ocxR4O4A&usqp=CAU);
+  background-position: center;
+  background-size:cover
+  
+}
+nav {
+  display: flex;
+  padding:2% 6%;
+  justify-content:space-between;
+   font-style: bold;
+  align-items: center;
+}
+
+
+
+.navigation{
+  flex:1;
+  text-align:right;
+}
+.navigation ul{
+  list-style-type:none
+}
+.navigation ul li{
+  list-style:none;
+  display:inline-block;
+  padding:8px 12px;
+  position:relative;
+}
+.navigation ul li a{
+  text-decoration:none;
+  color: #0622ac;
+  font-weight:600;
+}
+.navigation ul li a:hover{
+  color: #ec0404;
+}
+.mysuperself{
+  width: 50%;
+  color:#0622ac;
+  text-align:center;
+  margin:0 auto;
+  position: absolute;
+   left: 20%;
+  top: 20%;
+  transform: translate(-50%, -50%);  
+}
+.mysuperself h1{
+  font-size:40px;
+}
+.about-img {
+  width: 40%;
+  margin: auto;
+  padding-top: 5px;
+  display: flex;
+  float:left;}
+
+
+.about-information ,h4  {
+  padding-left:80px;
+  text-align:left;
+  display:inline-block;
+  margin: auto;
+  font-style: italic;
+  color:#0c0c0d;
+ 
+}
+
+
+.project{
+  width: 70%;
+   line-height:70%;
+  text-align:left;
+  word-wrap:normal;
+  margin:0px; 
+  font-size:16px;
+  position:absolute;
+  left:15%;
+  top:40%;
+  transform: translate(-50%, -50%);  
+}
+.someofmyprojects{
+ width:40%;
+  padding-left: 30px;
+color: #0c0c0c;
+  position:absolute;
+  left:40%;
+  top:20%;
+}
+.servicesicanrender{
+width: 20%;
+   line-height:100%;
+  padding-left: 0px;
+  text-align:left;
+  font-size:16px;
+  position: absolute;
+  left:70%;
+  top:40%; }
+
+
+.contactme{
+  padding-left:40px;
+  text-align:left;
+  display:flex;
+  margin: auto;
+  width:20%;
+  position: absolute;
+  left: 65%;
+  border:3px solid white;
+  border-radius:5px;
+  background-color:#0622ac;
+  color:white;
+
+
+} 
+.container{
+Width: 80%;
+Display: flex;
+align-items: center;
+Justify-content: space-between;
+Margin: 0px;
+ border:2px solid white;
+border-radius:10px;
+padding:17px;
+ color:white;
+ background-color: #0622ac;
+ text-align:left;
+ position:relative;
+left:10%;
+font-size:12px;
+   
+}
+
+ 
+
+
+.Sponsored{
+  text-align:center;
+  font-size:8px;
+  color:#0622ac;
+  display:inline-block;
+  position:relative;
+  bottom: 2%;
+  left: 35%;
+ 
+   font-style: italic;
+  }
+  
+
+
+
+
+
+
+
